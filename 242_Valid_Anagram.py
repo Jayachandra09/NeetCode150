@@ -8,7 +8,8 @@ def ValidAnagram(s, t) :
     countT[t[i]] = 1+countT.get(t[i],0)
   return countS==countT
 
-  ]
+
+
 #But we can solve this by using Counter also 
 from collections import Counter
 def ValidAnagram(s, t):
@@ -19,3 +20,5 @@ s = "racecar"
 t = "carrace"
 result = ValidAnagram(s, t)
 print(result)
+
+#Problem Link : https://leetcode.com/problems/valid-anagram/description/
